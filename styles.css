@@ -231,18 +231,9 @@ section#alexa {
 
 .hidden { display: none; }
 
-form {
-
-}
-
 label {
   color: white;
 }
-
-input[type=text], select, textarea {
-
-}
-
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
