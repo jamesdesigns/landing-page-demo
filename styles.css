@@ -1,8 +1,31 @@
+@font-face {
+  font-family: "BrownEntrata-Bold";
+  src: url("fonts/BrownEntrata-Bold.otf");
+}
+
+@font-face {
+  font-family: "BrownEntrata-Light";
+  src: url("fonts/BrownEntrata-Light.otf");
+}
+
+@font-face {
+  font-family: "BrownEntrata-Regular";
+  src: url("fonts/BrownEntrata-Regular.otf");
+}
+
+@font-face {
+  font-family: "BrownEntrata-Regular";
+  src: url("fonts/BrownEntrata-Regular.otf");
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
+  font-family: 'BrownEntrata-Regular';
 }
 
 .dark-text { color: #212427; }
