@@ -2,3 +2,4 @@
 function toggleDropDown() {
   document.getElementById('form-section').classList.toggle('hidden');
 }
+
