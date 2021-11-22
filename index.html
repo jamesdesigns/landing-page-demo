@@ -25,10 +25,43 @@
     <div id="hero">
       <h1>ResidentPortal</h1>
       <p>Give residents 24-Hour access to pay rent, submit a work order, and much more.</p>
-      <button id="demo" class="demo-btn">REQUEST DEMO</button>
+      <button id="demo" class="demo-btn" onclick="toggleDropDown()">REQUEST DEMO</button>
       <div class="myclass"></div>
     </div>
   </section>
+
+  <div id="form-section" class="footer-container">
+    <div class="form-container">
+      <h2>Make your life easier.<br/>You deserve it.</h2>
+      <p>You can schedule your demo here and now.</p>
+      <br /><br />  
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="First name*" required>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Last name*" required>
+    
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="email@xyz.com" pattern=".+@globex\.com" required>
+      
+          <label for="lname">Company</label>
+          <input type="text" id="company" name="company" placeholder="Company*" required>
+    
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Phone*" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      
+          <label for="propertycount">Property Count</label>
+          <input type="text" id="propertycount" name="propertycount" placeholder="Property Count*" required>
+    
+          <label for="numberofunits">Number of Units</label>
+          <input type="text" id="numberofunits" name="numberofunits" placeholder="Number of Units*" required>
+    
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+
   <section id="app">
     <h2 class="dark-text">ResidentPortal Benefits</h2>
     <hr/>
@@ -94,37 +127,6 @@
         </div>
       </div>
     </div>
-  </section>
-  <section class="footer-form">
-    <!-- <div class="footer-container">
-      <h2>Make your life easier. You deserve it.</h2>
-      <p>You can schedule your demo here and now.</p>
-      <br /><br />
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="First name*" required>
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Last name*" required>
-    
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="email@xyz.com" pattern=".+@globex\.com" required>
-      
-          <label for="lname">Company</label>
-          <input type="text" id="company" name="company" placeholder="Company*" required>
-    
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone" placeholder="Phone*" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-      
-          <label for="propertycount">Property Count</label>
-          <input type="text" id="propertycount" name="propertycount" placeholder="Property Count*" required>
-    
-          <label for="numberofunits">Number of Units</label>
-          <input type="text" id="numberofunits" name="numberofunits" placeholder="Number of Units*" required>
-    
-          <input type="submit" value="Submit">
-        </form>
-      </div> -->
   </section>
   <footer>
     <nav></nav>
