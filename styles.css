@@ -52,7 +52,7 @@ h3 {
 }
 
 h4 {
-   padding-top: 200px;
+   padding-top: 150px;
 }
 
 nav { 
@@ -164,6 +164,7 @@ input[type=submit]:hover {
   max-width: 700px;
   height: auto;
   margin:0 auto;
+  padding-bottom: 30px;
 }
 
 .slider {
@@ -289,9 +290,9 @@ hr {
 section#alexa {
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 400px;
   margin: 0 auto;
-  background-color: black;
+  background-color: #212427;
   color: white;
   font-size: 30px;
 }
@@ -303,7 +304,7 @@ section#alexa {
 }
 
 .alexa-img {
-  margin-top: 216px;
+  margin-top: 116px;
   margin-right: 295px;
 }
 
@@ -366,4 +367,8 @@ label {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: transparent;
+}
+
+.testimonials-container {
+  padding-top: 60px;
 }
