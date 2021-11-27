@@ -324,7 +324,7 @@ section#alexa {
 }
 
 .customer-review-container {
-  border-top: 1px solid #ccc;
+  /* border-top: 1px solid #ccc; */
   border-bottom: 1px solid #ccc; 
   padding: 0 30px;
   margin-left: 30px;
@@ -379,4 +379,5 @@ label {
 .customer {
   margin-top: 15px;
   font-weight: 300;
+  font-style: italic;
 }
