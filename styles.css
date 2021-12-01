@@ -49,9 +49,12 @@ h1 .box {
   bottom: 0;
   display: inline-block;
   background: #ccc;
-  width: 100px;
   height: 1vw;
   z-index: -1;
+}
+
+h1 .hi {
+  display: inline-block;
 }
 
 h2 {
