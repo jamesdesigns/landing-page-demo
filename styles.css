@@ -285,6 +285,7 @@ a {
 
 .card:hover {
   transform: translateY(-1rem);
+
 }
 
 .card:hover  ~ .card {
