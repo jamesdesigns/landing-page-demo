@@ -34,6 +34,7 @@
 .margin-top-10 { margin-top: 10px; }
 .margin-btm-10 { margin-bottom: 10px; }
 .width-400 { width: 500px; line-height: 47px;}
+.down-arrow { padding-top: 10px; }
 
 .font-size-22 { font-size: 22px; }
 .shadow { box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); }
