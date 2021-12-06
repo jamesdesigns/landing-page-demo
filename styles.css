@@ -139,6 +139,12 @@ div#hero {
 .row4 { display: flex;}
 .row5 { display: flex;}
 
+.row1-btm { display: flex;}
+.row2-btm { display: flex;}
+.row3-btm { display: flex;}
+.row4-btm { display: flex;}
+.row5-btm { display: flex;}
+
 .div1 { width: 335px; margin-right: 40px; }
 .div2 { width: 335px; }
 .div3 { width: 335px; margin-right: 40px; }
@@ -147,6 +153,15 @@ div#hero {
 .div6 { width: 335px; }
 .div7 { width: 335px; }
 .div8 { width: 335px; }
+
+.div1-btm { width: 335px; margin-right: 40px; }
+.div2-btm { width: 335px; }
+.div3-btm { width: 335px; margin-right: 40px; }
+.div4-btm { width: 335px; }
+.div5-btm { width: 335px; margin-right: 40px; }
+.div6-btm { width: 335px; }
+.div7-btm { width: 335px; }
+.div8-btm { width: 335px; }
 
 .div8 .submit-btn { width: 175px;}
 
@@ -382,6 +397,12 @@ section#alexa {
 }
 
 .form-container { 
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.form-container-btm { 
   max-width: 700px;
   margin: 0 auto;
   padding-bottom: 80px;
