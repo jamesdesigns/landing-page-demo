@@ -143,6 +143,9 @@ div#hero {
 .div5 { width: 325px; margin-right: 50px; }
 .div6 { width: 325px; }
 .div7 { width: 325px; }
+.div8 { width: 325px; }
+
+.div8 .submit-btn { width: 175px;}
 
 
 /* Demo Form Styling */
