@@ -31,34 +31,59 @@
     </div>
   </section>
 
+
+  <!-- End of FORM CSS GRID -->
+
   <div id="form-section" class="footer-container">
     <div class="form-container">
       <h2>Make your life easier.<br/>You deserve it.</h2>
       <p class="white-text font-size-22">You can schedule your demo here and now.</p>
       <br /><br />  
         <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="First name*" required>
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Last name*" required>
+          <div class="row1">
+            <div class="div1">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="First name*" required>
+            </div>
+            <div class="div2">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Last name*" required>
+            </div>
+          </div>  
+          <div class="row2">
+            <div class="div3">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="email@xyz.com" pattern=".+@globex\.com" required>
+            </div>
+            <div class="div4">
+              <label for="lname">Company</label>
+              <input type="text" id="company" name="company" placeholder="Company*" required>
+            </div>
+          </div>
+          
+          <div class="row3">
+            <div class="div5">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Phone*" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <div class="div6">
+              <label for="propertycount">Property Count</label>
+              <input type="text" id="propertycount" name="propertycount" placeholder="Property Count*" required>
+            </div>
+          </div>  
     
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="email@xyz.com" pattern=".+@globex\.com" required>
-      
-          <label for="lname">Company</label>
-          <input type="text" id="company" name="company" placeholder="Company*" required>
+          <div class="row4">
+            <div class="div7">
+            <label for="numberofunits">Number of Units</label>
+            <input type="text" id="numberofunits" name="numberofunits" placeholder="Number of Units*" required>
+            </div>
+          </div>
     
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone" placeholder="Phone*" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-      
-          <label for="propertycount">Property Count</label>
-          <input type="text" id="propertycount" name="propertycount" placeholder="Property Count*" required>
-    
-          <label for="numberofunits">Number of Units</label>
-          <input type="text" id="numberofunits" name="numberofunits" placeholder="Number of Units*" required>
-    
-          <input type="submit" value="Submit">
+          <div class="row5">
+            <div class="div8">
+              <input type="submit" value="Submit">
+            </div>
+          </div>
         </form>
       </div>
     </div>

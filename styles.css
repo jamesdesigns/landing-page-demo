@@ -130,6 +130,21 @@ div#hero {
   height: 900px;
 }
 
+.row1 { display: flex;}
+.row2 { display: flex;}
+.row3 { display: flex;}
+.row4 { display: flex;}
+.row5 { display: flex;}
+
+.div1 { width: 325px; margin-right: 50px; }
+.div2 { width: 325px; }
+.div3 { width: 325px; margin-right: 50px; }
+.div4 { width: 325px; }
+.div5 { width: 325px; margin-right: 50px; }
+.div6 { width: 325px; }
+.div7 { width: 325px; }
+
+
 /* Demo Form Styling */
 input[type=text], select, textarea {
   width: 100%;
