@@ -365,6 +365,13 @@ section#alexa {
   margin-right: 295px;
 }
 
+.offer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+
+}
+
 .review-container {
   display: flex;
   max-width: 750px;
@@ -446,6 +453,13 @@ label {
   font-style: italic;
 }
 
+footer {
+  display: block;
+  width: 100%;
+  height: 600px;
+  background-color: black;
+}
+
 @media only screen and (max-width: 700px) {
   .hide-on-mobile { display: none;  }
 
@@ -455,6 +469,12 @@ label {
   .row4 { display: flex; flex-direction: column; }
   .row5 { display: flex; flex-direction: column; }
 
+  .row1-btm { display: flex; flex-direction: column; }
+  .row2-btm { display: flex; flex-direction: column; }
+  .row3-btm { display: flex; flex-direction: column; }
+  .row4-btm { display: flex; flex-direction: column; }
+  .row5-btm { display: flex; flex-direction: column; }
+
   .div1 { width: 95%; margin: 0 15px; }
   .div2 { width: 95%; margin: 0 15px; }
   .div3 { width: 95%; margin: 0 15px; }
@@ -463,4 +483,13 @@ label {
   .div6 { width: 95%; margin: 0 15px; }
   .div7 { width: 95%; margin: 0 15px; }
   .div8 { width: 95%; margin: 0 15px; }
+
+  .div1-btm { width: 95%; margin: 0 15px; }
+  .div2-btm { width: 95%; margin: 0 15px; }
+  .div3-btm { width: 95%; margin: 0 15px; }
+  .div4-btm { width: 95%; margin: 0 15px; }
+  .div5-btm { width: 95%; margin: 0 15px; }
+  .div6-btm { width: 95%; margin: 0 15px; }
+  .div7-btm { width: 95%; margin: 0 15px; }
+  .div8-btm { width: 95%; margin: 0 15px; }
 }
