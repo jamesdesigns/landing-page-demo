@@ -533,4 +533,10 @@ li {
   .div6-btm { width: 95%; margin: 0 15px; }
   .div7-btm { width: 95%; margin: 0 15px; }
   .div8-btm { width: 95%; margin: 0 15px; }
+
+  .footer-menu { 
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+  }
 }
