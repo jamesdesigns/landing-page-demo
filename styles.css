@@ -470,10 +470,7 @@ footer {
 
 ul {
   flex-direction:column;
-  list-style-type: none;
   padding-right: 60px;
-
-
 }
 
 li {
