@@ -471,6 +471,17 @@ footer {
   list-style-type: none;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-family: 'BrownEntrata-Light';
+  font-weight: 300;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
 
 ul {
   flex-direction:column;
