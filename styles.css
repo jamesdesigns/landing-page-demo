@@ -104,6 +104,12 @@ section.hero {
   background-color: #212427; 
 }
 
+.fixed-top-logo {
+  position: fixed;
+  top: 10;
+  left: 550px;
+}
+
 button {
   margin-top: 30px;
   padding: 15px 35px;
