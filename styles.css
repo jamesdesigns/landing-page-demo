@@ -501,6 +501,18 @@ li {
 .col-5 {margin-top: 80px; }
 .col-6 {margin-top: 80px; }
 
+.footer-logo {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+}
+
+.logo {
+  padding-top: 70px;
+}
+
 @media only screen and (max-width: 700px) {
   .hide-on-mobile { display: none;  }
 
