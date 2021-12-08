@@ -30,6 +30,7 @@
 
 .dark-text { color: #212427; }
 .white-text { color: white; }
+.light-gray-text { color: #ccc; }
 .tiny-text { font-size: 12px;}
 .margin-top-10 { margin-top: 10px; }
 .margin-btm-10 { margin-bottom: 10px; }
@@ -37,6 +38,7 @@
 .down-arrow { padding-top: 10px; }
 
 .font-size-22 { font-size: 22px; }
+.font-weight-300 { font-weight: 300; font-family: 'BrownEntrata-Light', sans-serif; }
 .shadow { box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); }
 .testimonial-text { line-height: 1.5; color:#212427;}
 
@@ -547,6 +549,7 @@ li {
   .div8-btm { width: 95%; margin: 0 15px; }
 
   .footer-menu { 
+    width: 100%;
     flex-direction: column;
     height: auto;
     margin: 0 auto;
