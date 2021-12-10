@@ -3,7 +3,7 @@ function toggleDropDown() {
   document.getElementById('form-section').classList.toggle('hidden');
 }
 
-const words = ["Start ResidentPortal.", "What was my last payment?", "When is my next appointment?", "Turn off the lights."]
+const words = ["Start ResidentPortal.", "When is my payment due?", "When is my next appointment?", "Turn on the lights."]
 
 let cursor = gsap.to('.cursor', {opacity: 0, ease: "power2.inOut", repeat: 1 })
 

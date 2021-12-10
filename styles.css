@@ -110,6 +110,18 @@ section.hero {
   left: 550px;
 }
 
+.fixed-nav-search { 
+  position: fixed;
+  top: 10;
+  right: 100px;
+}
+
+.fixed-nav-hamburger { 
+  position: fixed;
+  top: 10;
+  right: 50px;
+}
+
 button {
   margin-top: 30px;
   padding: 15px 35px;
