@@ -477,6 +477,17 @@ label {
     padding: 20px 0;
 }
 
+
+.community-slideshow .slideshow-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
 .community-slideshow .slideshow-images .images div.active img {
   filter: brightness(100%);
 }
