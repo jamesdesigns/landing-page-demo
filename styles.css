@@ -467,6 +467,44 @@ label {
   font-size: 20px;
 }
 
+/* NEW CSS FOR TESTIMONIAL */
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 20px 0;
+}
+
+.community-slideshow .slideshow-images .images div.active img {
+  filter: brightness(100%);
+}
+
+.community-slideshow .slideshow-images button {
+    cursor: pointer;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1);
+    transition: all .4s;
+}
+
+.community-slideshow .slideshow-images .images .has-video {
+  cursor: pointer;
+}
+
+.container img { width: 300px;}
+
+/* END OF CSS FOR TESTIMONIAL */
+
 .customer {
   margin-top: 15px;
   font-weight: 300;
