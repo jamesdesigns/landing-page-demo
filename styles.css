@@ -499,6 +499,7 @@ padding: 10px;
   border-radius: 15px;
   background: white;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .active {
