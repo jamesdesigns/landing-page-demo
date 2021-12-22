@@ -420,10 +420,16 @@ padding: 10px;
 }
 
 .thero h1 {
-  text-align: center;
+  /* text-align: center; */
+  /* padding-left: 20%; */
   padding-top: 80px;
   font-size: 40px;
-  color: white;
+  color: #212427;
+}
+
+.h1-container {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .slide-row {
@@ -441,13 +447,12 @@ padding: 10px;
 .user-img {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   height: 100%;
 }
 
 .user-img img {
   height: 100%;
-  /* border-radius: 10px; */
 }
 
 .user-text {
@@ -455,10 +460,9 @@ padding: 10px;
   width: 520px;
   height: 320px;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   transform: translateY(-50%);
-  /* border-radius: 10px; */
   color: #d3d4d6;
   padding: 45px;
   box-sizing: border-box;
@@ -471,7 +475,7 @@ padding: 10px;
 }
 
 .user-text {
-  margin: 35px 0 5px;
+  margin: 5px 0 5px;
   color: white;
 }
 
