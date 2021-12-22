@@ -139,6 +139,28 @@
   </section>
 
   <section id="alexa">
+    <!-- <div class="alexa-voice">
+      <h1>
+        <span class="hi">Alexa. </span>
+        <span class="text"></span>
+        <span class="cursor">_</span>
+      </h1>
+    </div> -->
+    <!-- <div>
+      <img class="alexa-img" src="images/alexa-echo-2.png" alt="Alexa" />
+    </div> -->
+
+    <!-- <video autoplay muted loop id="myVideo">
+      <source src="alexa-video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video> -->
+ 
+
+
+  <div class="video-container">
+    <video autoplay muted loop>
+        <source src="alexa-video.mp4" type="video/mp4" />
+    </video>
     <div class="alexa-voice">
       <h1>
         <span class="hi">Alexa. </span>
@@ -146,10 +168,8 @@
         <span class="cursor">_</span>
       </h1>
     </div>
-    <div>
-      <img class="alexa-img" src="images/alexa-echo-2.png" alt="Alexa" />
-    </div>
-  </section>
+</div>  
+</section>
 
   <section id="reduce-risk">
     <div class="offer">
@@ -469,5 +489,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EasePack.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
   <script src="script.js"></script>
+
+  <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
 </body>
 </html>
