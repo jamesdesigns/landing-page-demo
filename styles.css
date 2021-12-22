@@ -376,7 +376,6 @@ section#alexa {
 .alexa-voice {
   max-width: 700px;
   margin: 0 auto;
-  /* padding-left: 300px; */
   margin-top: 170px;
 }
 
@@ -436,7 +435,6 @@ padding: 10px;
 }
 
 .customer-review-container {
-  /* border-top: 1px solid #ccc; */
   border-bottom: 1px solid #ccc; 
   padding: 0 30px;
   margin-left: 30px;
@@ -493,141 +491,6 @@ label {
 .testimonial-text {
   font-size: 20px;
 }
-
-/* NEW CSS FOR TESTIMONIAL */
-  /* .container {
-    max-width: 700px;
-    margin: 0 auto;
-    border-radius: 5px;
-    background-color: red;
-    color: white;
-    padding: 20px 0;
-} */
-
-.community-slideshow {
-  overflow: hidden;
-}
-
-.-wide.customerMarquee-header, .container.-wide {
-  max-width: 1312px;
-  width: calc(100% - 128px);
-}
-
-.community-slideshow .slideshow-bg {
-  background-color: #e8ecee;
-  transition: background-color .8s;
-  height: 3000px;
-  width: 150vw;
-  position: absolute;
-  left: -50vw;
-  top: -50vh;
-}
-
-.community-slideshow .slideshow-container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-}
-
-/* .community-slideshow .slideshow-images {
-  position: relative;
-  height: auto;
-} */
-
-.col-medium-5 {
-  flex-basis: 41.66667%;
-  max-width: 41.66667%;
-}
-
-.community-slideshow .slideshow-images .images div.active img {
-  filter: brightness(100%);
-}
-
-.community-slideshow .slideshow-images button {
-    cursor: pointer;
-    display: block;
-    width: 80px;
-    height: 80px;
-    background: #fff;
-    border-radius: 100px;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    z-index: 2;
-    opacity: 1;
-    transform: scale(1);
-    transition: all .4s;
-}
-
-.css-1b4920d {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.community-slideshow .complication {
-    display: block;
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    top: 0;
-    left: 0;
-    transform-origin: center;
-    transform: rotate(
-0deg) translate(-24px,-24px);
-    z-index: 0;
-    transition: all .5s;
-    will-change: transform;
-}
-
-.community-slideshow .slideshow-images .images div img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  filter: brightness(40%);
-  transition: all .6s cubic-bezier(.68,.04,.33,.98);
-  border-radius: 4px;
-}
-
-.community-slideshow .slideshow-images .images .has-video {
-  cursor: pointer;
-}
-
-.community-slideshow .slideshow-images .images div.active {
-  transition: all .6s cubic-bezier(.68,.04,.33,.98);
-  transform: rotate(
-0deg) translate(0);
-  opacity: 1;
-  z-index: 2;
-}
-
-.community-slideshow .slideshow-images .images div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    border-radius: 4px;
-    transform-origin: top center;
-    background-size: cover;
-    opacity: 1;
-    transition: none;
-    transform: scale(1) rotate(
-0deg) translate(0);
-}
-
-
-
-
-/* END OF CSS FOR TESTIMONIAL */
 
 .customer {
   margin-top: 15px;
