@@ -19,3 +19,36 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
     tl.to('.text', {duration: 1.8, text: word})
     masterTl.add(tl)
   })
+
+
+  let btn = document.getElementsByClassName("btn");
+  let slide = document.getElementById("slide");
+
+  btn[0].onclick = function() {
+    slide.style.transform = "translateX(0px)";
+    for(i=0;i<4;i++) {
+      btn[i].classList.remove("active");
+    }
+    this.classList.add("active");
+  }
+  btn[1].onclick = function() {
+    slide.style.transform = "translateX(-800px)";
+    for(i=0;i<4;i++) {
+      btn[i].classList.remove("active");
+    }
+    this.classList.add("active");
+  }
+  btn[2].onclick = function() {
+    slide.style.transform = "translateX(-1600px)";
+    for(i=0;i<4;i++) {
+      btn[i].classList.remove("active");
+    }
+    this.classList.add("active");
+  }
+  btn[3].onclick = function() {
+    slide.style.transform = "translateX(-2400px)";
+    for(i=0;i<4;i++) {
+      btn[i].classList.remove("active");
+    }
+    this.classList.add("active");
+  }
