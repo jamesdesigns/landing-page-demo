@@ -413,7 +413,7 @@ padding: 10px;
 
 /* New Testimonial */
 .thero {
-  background-color: gray;
+  background-color: #F0F0F0;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -447,18 +447,18 @@ padding: 10px;
 
 .user-img img {
   height: 100%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .user-text {
-  background: #2d3a59;
+  background: #212427;
   width: 520px;
   height: 320px;
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   color: #d3d4d6;
   padding: 45px;
   box-sizing: border-box;
@@ -497,7 +497,7 @@ padding: 10px;
   width: 15px;
   margin: 4px;
   border-radius: 15px;
-  background: white;
+  background: red;
   cursor: pointer;
   transition: 0.5s;
 }
