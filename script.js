@@ -1,6 +1,13 @@
 // Toggle OFF/ON the Request Demo Form when user clicks the CTA 'Request Demo' button
 function toggleDropDown() {
-  document.getElementById('form-section').classList.toggle('hidden');
+  let content = document.getElementById('form-section');
+
+  if (content.style.display === "none") {
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+  }
+  // let content = document.getElementById('form-section').classList.toggle('hidden');
 }
 
 const words = ["Turn on the lights.", "Start ResidentPortal.", "When is my payment due?", "How much is my rent next month?"]
