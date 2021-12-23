@@ -352,6 +352,21 @@ a {
   transform: translateX(3rem);
 }
 
+.app-introduction {
+  max-width: 700px;
+  line-height: 1.10;
+}
+
+.app-introduction p {
+  line-height: 24px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-family: 'BrownEntrata-Light';
+  font-size: 16px;
+}
+
+.apps { margin-bottom: 90px; }
+
 hr {
   margin: 25px 0;
 }
