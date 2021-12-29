@@ -52,3 +52,12 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
     }
     this.classList.add("active");
   }
+
+
+  let landingPageRules = document.querySelector("#rules");
+  
+
+  landingPageRules.addEventListener('click', function() {
+    console.log(landingPageRules);
+    
+  })
