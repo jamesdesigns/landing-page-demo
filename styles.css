@@ -29,6 +29,7 @@
 }
 
 .dark-text { color: #212427; }
+.red-text { color: red; }
 .white-text { color: white; }
 .light-gray-text { color: #ccc; }
 .tiny-text { font-size: 12px;}
@@ -129,6 +130,21 @@ section.hero {
 button {
   margin-top: 30px;
   padding: 15px 35px;
+}
+
+.myclass { 
+  display: block;
+  color: red;
+  margin-top: 50px;
+  border-top: 1px solid red;
+  max-width: 700px;
+}
+
+.myclass p {
+  padding-top:10px;
+  font-family: 'BrownEntrata-Light';
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 #hero h1 {

@@ -54,10 +54,26 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
   }
 
 
+  // This Section displays the Landing Page Rules to follow
   let landingPageRules = document.querySelector("#rules");
-  
 
   landingPageRules.addEventListener('click', function() {
-    console.log(landingPageRules);
-    
+    const headerSection = document.getElementById("showRulesA");
+    const benefitsSection = document.getElementById("showRulesB");
+
+
+    if(headerSection.style.display === "none") {
+      headerSection.style.display = "block";
+    } else {
+      headerSection.style.display = "none";
+    }
+
+    if(benefitsSection.style.display === "none") {
+      benefitsSection.style.display = "block";
+    } else {
+      benefitsSection.style.display = "none";
+    }
+
+
+
   })
