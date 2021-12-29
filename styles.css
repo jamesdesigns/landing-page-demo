@@ -171,7 +171,6 @@ button {
 
 .myclass3 p {
   padding-top:10px;
-  /* padding-bottom: 30px; */
   font-family: 'BrownEntrata-Bold';
   font-weight: 600;
   font-size: 1.5rem;
@@ -187,7 +186,6 @@ button {
 
 .myclass4 p {
   padding-top:10px;
-  /* padding-bottom: 30px; */
   font-family: 'BrownEntrata-Bold';
   font-weight: 600;
   font-size: 1.5rem;
@@ -198,12 +196,29 @@ button {
   color: red;
   border-top: 2px solid red;
   max-width: 700px;
-  margin: 50px auto;
+  margin: 90px auto;
 }
 
 .myclass5 p {
   padding-top:10px;
-  /* padding-bottom: 30px; */
+  font-family: 'BrownEntrata-Bold';
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.myclass6 {
+  display: block;
+  color: white !important;
+  border-top: 2px solid white;
+  max-width: 700px;
+  margin: 90px auto;
+  /* background-color: white; */
+  padding: 10px 10px 15px 10px;
+  /* border-radius: 8px; */
+}
+
+.myclass6 p {
+  padding-top:10px;
   font-family: 'BrownEntrata-Bold';
   font-weight: 600;
   font-size: 1.5rem;

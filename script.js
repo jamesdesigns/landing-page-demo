@@ -63,6 +63,7 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
     const appSection = document.getElementById("showRulesC");
     const videoSection = document.getElementById("showRulesD");
     const testimonialSection = document.getElementById("showRulesE");
+    const btmFormSection = document.getElementById("showRulesF");
 
 
     if(headerSection.style.display === "none") {
@@ -89,10 +90,16 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
       videoSection.style.display = "none";
     }
 
-    if(testimomialSection.style.display === "none") {
+    if(testimonialSection.style.display === "none") {
       testimonialSection.style.display = "block";
     } else {
       testimonialSection.style.display = "none";
+    }
+
+    if(btmFormSection.style.display === "none") {
+      btmFormSection.style.display = "block";
+    } else {
+      btmFormSection.style.display = "none";
     }
 
 
