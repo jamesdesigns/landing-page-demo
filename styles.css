@@ -34,6 +34,7 @@
 .tiny-text { font-size: 12px;}
 .margin-top-10 { margin-top: 10px; }
 .margin-top-30 { margin-top: 30px; }
+.margin-top-50 { margin-top: 50px; }
 .margin-btm-10 { margin-bottom: 10px; }
 .width-400 { width: 500px; line-height: 47px;}
 .down-arrow { padding-top: 10px; }
@@ -386,7 +387,7 @@ section#alexa {
   width: 100%;
   height: 400px;
   margin: 0 auto;
-  background-color: #212427;
+  background:transparent;
   color: white;
   font-size: 30px;
 }
@@ -399,6 +400,7 @@ section#alexa {
 
 .alexa-voice p .rp {
   color: white;
+  font-size: 1.25rem;
 }
 
 .alexa-img {
@@ -419,7 +421,7 @@ width: 100%;
 height: 100%;
 position: absolute;
 object-fit: cover;
-z-index: 0;
+z-index: -1;
 }
 
 /* Just styling the content of the div, the *magic* in the previous rules */
@@ -584,7 +586,7 @@ padding: 10px;
 .form-container { 
   max-width: 700px;
   margin: 0 auto;
-  padding-bottom: 80px;
+  padding-bottom: 130px;
 }
 
 .form-container-btm { 
