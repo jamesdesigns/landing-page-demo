@@ -60,6 +60,9 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
   landingPageRules.addEventListener('click', function() {
     const headerSection = document.getElementById("showRulesA");
     const benefitsSection = document.getElementById("showRulesB");
+    const appSection = document.getElementById("showRulesC");
+    const videoSection = document.getElementById("showRulesD");
+    const testimonialSection = document.getElementById("showRulesE");
 
 
     if(headerSection.style.display === "none") {
@@ -72,6 +75,24 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
       benefitsSection.style.display = "block";
     } else {
       benefitsSection.style.display = "none";
+    }
+
+    if(appSection.style.display === "none") {
+      appSection.style.display = "block";
+    } else {
+      appSection.style.display = "none";
+    }
+
+    if(videoSection.style.display === "none") {
+      videoSection.style.display = "block";
+    } else {
+      videoSection.style.display = "none";
+    }
+
+    if(testimomialSection.style.display === "none") {
+      testimonialSection.style.display = "block";
+    } else {
+      testimonialSection.style.display = "none";
     }
 
 
