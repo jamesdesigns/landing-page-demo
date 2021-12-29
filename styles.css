@@ -141,9 +141,26 @@ button {
 }
 
 .myclass p {
-  padding-top:10px;
+  padding-top: 10px;
   font-family: 'BrownEntrata-Light';
   font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.myclass2 {
+  display: block;
+  color: red;
+  /* margin-top: 50px; */
+  margin-top: -70px;
+  border-top: 2px solid red;
+  max-width: 700px;
+}
+
+.myclass2 p {
+  padding-top:10px;
+  padding-bottom: 30px;
+  font-family: 'BrownEntrata-Bold';
+  font-weight: 600;
   font-size: 1.5rem;
 }
 
