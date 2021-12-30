@@ -211,7 +211,7 @@ button {
   color: white !important;
   border-top: 2px solid white;
   max-width: 700px;
-  margin: 90px auto;
+  margin: 50px auto 0px;
   /* background-color: white; */
   padding: 10px 10px 15px 10px;
   /* border-radius: 8px; */
@@ -578,7 +578,7 @@ padding: 10px;
   height: 320px;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
   color: #d3d4d6;
   padding: 45px;
