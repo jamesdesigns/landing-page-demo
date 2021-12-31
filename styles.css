@@ -201,7 +201,8 @@ button {
   color: red;
   border-top: 2px solid red;
   max-width: 700px;
-  margin: 90px auto;
+  margin: 0 auto;
+  margin-bottom: -40px;
 }
 
 .myclass5 p {
