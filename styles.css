@@ -186,6 +186,7 @@ button {
   border-top: 2px solid red;
   max-width: 700px;
   margin: 50px auto;
+  margin-bottom: -90px;
 }
 
 .myclass4 p {
