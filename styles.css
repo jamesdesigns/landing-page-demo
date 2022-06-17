@@ -110,8 +110,8 @@ section.hero {
 
 .fixed-top-logo {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 30px;
+  left: 30px;
   z-index: 99;
 }
 
