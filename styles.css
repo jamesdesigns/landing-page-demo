@@ -28,6 +28,7 @@
   font-family: 'BrownEntrata-Regular';
 }
 
+.large-text { font-size: 45px; }
 .dark-text { color: #212427; }
 .red-text { color: red; }
 .white-text { color: white; }
