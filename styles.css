@@ -39,6 +39,7 @@
 .margin-top-30 { margin-top: 30px; }
 .margin-top-50 { margin-top: 50px; }
 .margin-btm-10 { margin-bottom: 10px; }
+.pad-btm-50 { padding-bottom: 50px; }
 .width-400 { width: 500px; line-height: 47px;}
 .down-arrow { padding-top: 10px; }
 
@@ -105,10 +106,14 @@ nav ul {
   font-weight: 400;
 }
 
-.top-nav { z-index: 9999; }
+.top-nav { 
+  z-index: 9999;
+  padding-top: 20px;
+ }
 
 nav ul li {
   padding: 15px 15px;
+  margin-left: 10px;
 }
 
 section.hero { 
@@ -117,6 +122,25 @@ section.hero {
   width: 100%;
 
   background-color: rgba(0,0,0,0.5);
+}
+
+.demo-btn {
+  margin-top: 5%;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 12px 25px;
+  color: white;
+}
+
+.demo-btn-2 {
+  position: fixed;
+  margin-top: 10%;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px 23px;
+  top: -145px;
+  right: 150px;
+  color: white;
 }
 
 video {
@@ -139,12 +163,15 @@ video {
   position: fixed;
   top: 10;
   right: 100px;
+  margin-top: -15px;
+  padding-left: 15px;
 }
 
 .fixed-nav-hamburger { 
   position: fixed;
   top: 10;
   right: 50px;
+  margin-top: -15px;
 }
 
 button {
@@ -266,6 +293,7 @@ button {
   color: #f5f5f5;
   font-weight: 300;
   font-size: 25px;
+  /* padding-bottom: 50px; */
 }
 
 div#hero {
@@ -560,6 +588,13 @@ padding: 10px;
 }
 
 /* End of Alexa Video section */
+
+
+/* NO OBLIGATION SECTION */
+
+.reduce-risk {
+  color: black;
+}
 
 /* New Testimonial */
 .thero {
