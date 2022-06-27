@@ -105,3 +105,6 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
 
 
   })
+
+
+ 
