@@ -711,6 +711,13 @@ padding: 10px;
   width: 100%;
   height: 300px;
   margin-top: 20%;
+  
+}
+
+.benefit {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .review-container {
