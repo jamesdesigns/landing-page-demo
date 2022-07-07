@@ -53,7 +53,7 @@ video { z-index: -1; }
 
 h1 {
   position: relative;
-  font-size: 2vw;
+  font-size: 3vw;
   overflow: hidden;
 }
 
@@ -68,6 +68,7 @@ h1 .box {
 
 h1 .hi {
   display: inline-block;
+  font-size: 3vw;
 }
 
 h2 {
