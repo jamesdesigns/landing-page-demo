@@ -107,4 +107,18 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
   })
 
 
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".trigger",
+      start: "center bottom",
+      end: "center top",
+      scrub: 2,
+    }
+  });
+
+  tl.from(".boxscroll", {xPercent: -300, duration: 1})
+  tl.from(".boxscroll2", {xPercent: 300, duration: 1})
+  tl.from(".boxscroll3", {xPercent: 300, duration: 1})
+
+
  
