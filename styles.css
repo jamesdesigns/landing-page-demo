@@ -18,7 +18,7 @@
   src: url("fonts/BrownEntrata-Regular.otf");
 }
 
-
+html { overflow-x: hidden;}
 
 * {
   margin: 0;
@@ -486,7 +486,7 @@ input[type=submit]:hover {
 .trigger {
   position: relative;
   width: 100vw;
-  height: 500px;
+  height: 525px;
   padding: 0px;
   clear:both;
 }
@@ -494,7 +494,7 @@ input[type=submit]:hover {
 .trigger2 {
   position: relative;
   width: 100vw;
-  height: 600px;
+  height: 575px;
   padding: 0px;
   clear:both;
 }
