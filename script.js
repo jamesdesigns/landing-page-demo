@@ -111,14 +111,38 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
     scrollTrigger: {
       trigger: ".trigger",
       start: "center bottom",
-      end: "center top",
-      scrub: 2,
+      end: "center bottom",
+      scrub: 1,
     }
   });
 
-  tl.from(".boxscroll", {xPercent: -300, duration: 1})
-  tl.from(".boxscroll2", {xPercent: 300, duration: 1})
-  tl.from(".boxscroll3", {xPercent: 300, duration: 1})
+  tl.from(".boxscroll", {xPercent: -300, duration: .1})
+  // tl.from(".boxscroll2", {xPercent: 300, duration: 1})
+  // tl.from(".boxscroll3", {xPercent: 300, duration: 1})
 
+
+  const tl2 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".trigger2",
+      start: "center bottom",
+      end: "center bottom",
+      scrub: 1,
+    }
+  });
+
+  tl2.from(".boxscroll2", {xPercent: 300, duration: .1})
+
+
+
+  const tl3 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".trigger3",
+      start: "center bottom",
+      end: "center bottom",
+      scrub: 1,
+    }
+  });
+
+  tl3.from(".boxscroll3", {xPercent: -300, duration: .1})
 
  

@@ -483,6 +483,64 @@ input[type=submit]:hover {
   font-size: 14px;
 }
 
+.trigger {
+  position: relative;
+  width: 100vw;
+  height: 500px;
+  padding: 0px;
+  clear:both;
+}
+
+.trigger2 {
+  position: relative;
+  width: 100vw;
+  height: 600px;
+  padding: 0px;
+  clear:both;
+}
+
+.trigger3 {
+  position: relative;
+  width: 100vw;
+  height: 600px;
+  padding: 0px;
+  clear:both;
+}
+
+.boxscroll {
+  position:absolute;
+  /* top:50%; */
+  top: 400px;
+  left:35%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  /* width: 40vw; */
+  width: 70vw;
+  height: 400px;
+  z-index:99;
+}
+
+.boxscroll2 {
+  position: absolute;
+  top: 100px;
+  left: 0%;
+  background-color: transparent;
+  width: 70vw;
+  height: 400px;
+  z-index: 99;
+}
+
+.boxscroll3 {
+  position: absolute;
+  top: 250px;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  width: 70vw;
+  height: 400px;
+  z-index: 99;
+}
+
 .cards {
   display: flex;
   width: 700px;
