@@ -134,6 +134,25 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
 
 
 
+  const phone = gsap.timeline({
+    scrollTrigger: {
+      trigger: "section.iphone",
+      start: "center center",
+      end: "bottom top",
+      scrub: true,
+      markers: false,
+      pin: true
+    }
+  })
+  phone.from(".box1", {x : innerWidth * -1})
+  phone.from(".box2", {opacity: 0})
+  phone.from(".box3", {x : innerWidth * 1})
+  phone.from(".box4", {x : innerWidth * 1})
+  phone.from(".box5", {x : innerWidth * 1})
+  phone.from(".box6", {x : innerWidth * 1})
+
+
+
   const tl3 = gsap.timeline({
     scrollTrigger: {
       trigger: ".trigger3",

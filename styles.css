@@ -486,7 +486,7 @@ input[type=submit]:hover {
 .trigger {
   position: relative;
   width: 100vw;
-  height: 525px;
+  height: 450px;
   padding: 0px;
   clear:both;
 }
@@ -533,7 +533,7 @@ input[type=submit]:hover {
 .boxscroll3 {
   position: absolute;
   top: 250px;
-  left: 17%;
+  left: 20%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   width: 70vw;
