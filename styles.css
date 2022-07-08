@@ -622,6 +622,31 @@ a {
   transform: translateX(3rem);
 }
 
+/* New iphone section */
+section.iphone {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px 0;
+}
+
+section.iphone .box {
+  position:absolute;
+  /* top: 60%; */
+  top: 25%;
+  left: 18%;
+  max-width: 1200px;
+  transform: translate(-50%,-50%);
+}
+
+section.iphone .box img {
+  /* max-width: 100%; */
+  /* max-width: 1200px; */
+  max-width: 500px;
+}
+
+/* End of New iphone section */
+
 .app-introduction {
   max-width: 700px;
   line-height: 1.10;
