@@ -146,10 +146,14 @@ boxTl.to('.box', {duration: 1.8, width: "17vw", delay: 0.5, ease: "power4.inOut"
   })
   phone.from(".box1", {x : innerWidth * -1})
   phone.from(".box2", {opacity: 0})
-  phone.from(".box3", {x : innerWidth * 1})
-  phone.from(".box4", {x : innerWidth * 1})
-  phone.from(".box5", {x : innerWidth * 1})
-  phone.from(".box6", {x : innerWidth * 1})
+  // phone.from(".box3", {x : innerWidth * 1})
+  // phone.from(".box4", {x : innerWidth * 1})
+  // phone.from(".box5", {x : innerWidth * 1})
+  // phone.from(".box6", {x : innerWidth * 1})
+  phone.from(".box3", {opacity: 0})
+  phone.from(".box4", {opacity: 0})
+  phone.from(".box5", {opacity: 0})
+  phone.from(".box6", {opacity: 0})
 
 
 
